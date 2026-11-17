@@ -1,2 +1,7 @@
 games.csv
 games.json
+
+# Generated data, Jupyter and Anaconda Navigator state
+data/
+.ipynb_checkpoints/
+anaconda_projects/
