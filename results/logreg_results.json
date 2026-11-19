@@ -1,0 +1,27 @@
+{
+ "model": "logistic_regression",
+ "preprocessing": "scaled data from preprocessing.ipynb, class_weight=balanced",
+ "best_params": {
+  "C": 100,
+  "penalty": "l2"
+ },
+ "cv_pr_auc": 0.5266862642692105,
+ "test_pr_auc": 0.43370988987031045,
+ "test_roc_auc": 0.8545961020197238,
+ "test_random_guesser_pr_auc": 0.05620404411764706,
+ "threshold_cv_f1_optimal": 0.7273332920880755,
+ "test_at_0.5": {
+  "threshold": 0.5,
+  "precision": 0.19680965725371846,
+  "recall": 0.7465249386753884,
+  "F1": 0.3114977823268509,
+  "accuracy": 0.8145220588235295
+ },
+ "test_at_cv_threshold": {
+  "threshold": 0.7273332920880755,
+  "precision": 0.3424657534246575,
+  "recall": 0.5519215044971382,
+  "F1": 0.4226675015654352,
+  "accuracy": 0.9152573529411765
+ }
+}
