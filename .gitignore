@@ -5,3 +5,6 @@ games.json
 data/
 .ipynb_checkpoints/
 anaconda_projects/
+/.virtual_documents
+.jupyter/collaboration_sessions.json
+.jupyter_ystore.db
